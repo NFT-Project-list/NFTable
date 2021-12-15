@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: black;
+    background: black;
+}
+
+.blog-section {
+    background:black ;
+}
+p {
+    font-size: 15.7px;
+    color: white;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    margin: 0;
+        margin-bottom: 0px;
+    font-weight: 500;
+    font-family: "Futura", sans-serif;
+}
+.about-section{
+}
+
+
+.hero-section {
+    height: 900px;
+    padding-top: 260px;
+    display: block;
+    background-image: url("../img/hero-bg.png");
+    background-size: cover;
+    background-color:black;
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-text h4 {
+    color: #ebebeb;
+    font-size: 22px;
+}
+
+.gradient-bg, .site-btn.sb-gradients, .member-social a:hover, .single-blog-page .social-share a:hover, .comment .comment-content .c-btn:hover, .comment-form label {
+    background: -webkit-gradient(linear, left top, right top, from(#007BFF), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
+    background: -o-linear-gradient(left, #007BFF 0%, hsl(165, 65%, 50%) 100%, #2dd3aa 100%, #2dd3aa 100%);
+    background: linear-gradient(to right, #000000 0%,#007BFF 100%, #3392ff 100%,#007BFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
+}
+/* .header-section {
+    padding: 30px 0;
+    background: #000;
+} */
+
+@media only screen and (max-width: 767px) {
+	.header-section {
+		padding: 30px 0;
+		background: #000000;
+	}
